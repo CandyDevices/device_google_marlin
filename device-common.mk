@@ -481,7 +481,7 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-tipsy
+DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-candy
 
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \

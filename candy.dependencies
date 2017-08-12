@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "CarbonROM/android_kernel_google_marlin",
+    "target_path": "kernel/google/marlin",
+    "branch": "cr-5.1"
+  },
+  {
+   "repository": "obsd39/proprietary_vendor_google",
+   "target_path": "vendor/google",
+   "branch": "cr-5.1"
+   }
+]

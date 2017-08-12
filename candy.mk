@@ -3,16 +3,16 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
 
-# Inherit Tipsy product configuration
-$(call inherit-product, vendor/tipsy/config/common.mk)
+# Inherit Candy product configuration
+$(call inherit-product, vendor/candy/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := tipsy_marlin
+PRODUCT_NAME := candy_marlin
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel XL
 TARGET_MANUFACTURER := HTC

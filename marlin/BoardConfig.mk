@@ -4,7 +4,7 @@
 #
 
 # Allow Lineage config to override others
--include device/google/marlin/marlin/BoardConfigTipsy.mk
+-include device/google/marlin/marlin/BoardConfigCandy.mk
 
 TARGET_BOARD_PLATFORM := msm8996
 TARGET_BOOTLOADER_BOARD_NAME := marlin
