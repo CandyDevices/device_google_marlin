@@ -7,8 +7,6 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 WITH_DEXPREOPT := false
 
 # Kernel
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-6.3/bin
-KERNEL_TOOLCHAIN_PREFIX := aarch64-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CONFIG := lineageos_marlin_defconfig
