@@ -1,12 +1,12 @@
 [
   {
-    "repository": "CarbonROM/android_kernel_google_marlin",
+    "repository": "LineageOS/android_kernel_google_marlin",
     "target_path": "kernel/google/marlin",
-    "branch": "cr-5.1"
+    "branch": "cm-14.1"
   },
   {
-   "repository": "obsd39/proprietary_vendor_google",
+   "repository": "TheMuppets/proprietary_vendor_google",
    "target_path": "vendor/google",
-   "branch": "cr-5.1"
+   "branch": "cm-14.1"
    }
 ]
